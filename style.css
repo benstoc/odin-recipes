@@ -1,0 +1,28 @@
+body {
+    background-color: #eee;
+    font-family: monospace;
+    font-size: 13px;
+}
+
+h1 {
+    color: rgb(151, 225, 40);
+}
+
+ul,
+ol,
+p {
+    background-color: #dcdbdb;
+}
+
+p {
+    width: 700px;
+}
+
+ul {
+    width: 500px;
+    list-style: square;
+}
+
+ol {
+    width: 700px;
+}

@@ -5,10 +5,10 @@ body {
 }
 
 h1 {
+    text-align: center;
     color: rgb(151, 225, 40);
 }
 
-ul,
 ol,
 p {
     background-color: #dcdbdb;
@@ -18,11 +18,36 @@ p {
     width: 700px;
 }
 
-ul {
-    width: 500px;
-    list-style: square;
+.container .recipe-list {
+    padding: 0;
+    text-align: center;
+    
 }
 
-ol {
-    width: 700px;
+li a img {
+    display: block;
+    height: 100px;
+    width: auto;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.recipe-list li {
+    background-color: #dcdbdb;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    border: 2px solid #b3b3b3;
+    padding-bottom: 10px;
+    margin: 0px 8px 10px;
+}
+
+.recipe-list a {
+    text-decoration: none;
+}
+
+.container {
+    /*background-color: lightblue;*/
+    width: 800px;
+    margin: 0 auto;
 }
